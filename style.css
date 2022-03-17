@@ -1,0 +1,44 @@
+  /* .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  } */
+ 
+canvas{
+  animation: shadow 3s linear infinite;
+  border-radius: 20px;
+}
+
+body{
+  background: url(background.jpg);
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+h3,p{
+  font-family: 'Akaya Telivigala', cursive;
+  font-weight: 700;
+}
+
+@keyframes shadow {
+  0%{box-shadow: 1px 1px 36px blue}
+  50%{box-shadow: 1px 1px 36px red}
+  100%{box-shadow: 1px 1px 36px blue}
+}
